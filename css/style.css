@@ -1,0 +1,112 @@
+h1
+{
+	color: #000000;
+	text-align: center;
+	background-color: #00cec9;
+}
+
+h2
+{
+	color: #000000;
+	box-shadow: 1px 3px 15px grey;
+	background-color: #81ecec;
+}
+
+.loremipsum
+{
+	font-style: italic;
+	text-align: left;
+}
+#prefere
+{
+	background-color: #6c5ce7;
+}
+#preferee 
+{
+	background-color: #d63031;
+}
+#nth-child
+{
+	background-color: #dfe6e9
+}
+.classement
+{
+	display: inline-block;
+	background-position: center;
+}
+
+a:link { color: red }
+a:visited { color: blue }
+a:hover { color: black }
+
+article
+{
+	margin: 10px;
+	padding: 5px;
+	border: 1px solid #AAAAAA;
+	background-color: #ffffff;
+}
+ul.menu {
+	list-style-type: none;
+	margin:0;
+	padding: 0;
+
+
+	display: flex;
+	flex-flow: row;
+	justify-content: flex-start;
+
+	background-color: #CCCCCC
+	border: 4px solid #AAAAAA;
+}
+
+ul.menu li a
+{
+	text-decoration: none;
+	padding: .75em 1.25em;
+
+
+	display: block;
+	transition: background .25s ease-in-out;
+
+	color: block;
+	background-color: #81ecec
+
+}
+
+ul.menu li a:hover
+{
+	background-color: #ffffff
+}
+body
+{
+	background-color: #01a3a4;
+}
+section, aside, header, footer
+{
+	border: 4px solid #AAAAAA;
+	padding: 10px;
+}
+header, footer
+{
+	background-color: white
+}
+#coteacote
+{
+	display: flex;
+}
+section
+{
+	width: 70%
+	background-color:white;
+}
+aside
+{
+	width: 30%
+	background-color:white;
+}
+#tout
+{
+	width: 800px;
+	margin: 0 auto;
+}
